@@ -19,8 +19,6 @@
 		B63756652B3CA9BE003075B2 /* Fizl ActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B63756532B3CA9BE003075B2 /* Fizl ActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B637566B2B3CAAF7003075B2 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637566A2B3CAAF7003075B2 /* Attributes.swift */; };
 		B637566C2B3CAAF7003075B2 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B637566A2B3CAAF7003075B2 /* Attributes.swift */; };
-		B6BA3F4F2B3F42DE00531CFC /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA3F4E2B3F42DE00531CFC /* NetworkImage.swift */; };
-		B6BA3F502B3F42DE00531CFC /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BA3F4E2B3F42DE00531CFC /* NetworkImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +60,6 @@
 		B63756622B3CA9BE003075B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B637566A2B3CAAF7003075B2 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
 		B6BA3F4D2B3CB36900531CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B6BA3F4E2B3F42DE00531CFC /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +136,6 @@
 				B637566A2B3CAAF7003075B2 /* Attributes.swift */,
 				B602B8362B4DB82E00BC9E18 /* Bundle.swift */,
 				B637565C2B3CA9BE003075B2 /* Fizl_LiveActivity.swift */,
-				B6BA3F4E2B3F42DE00531CFC /* NetworkImage.swift */,
 				B63756602B3CA9BE003075B2 /* Assets.xcassets */,
 				B63756622B3CA9BE003075B2 /* Info.plist */,
 			);
@@ -249,7 +245,6 @@
 			files = (
 				B63756442B3CA99E003075B2 /* ContentView.swift in Sources */,
 				B63756422B3CA99E003075B2 /* FizlApp.swift in Sources */,
-				B6BA3F4F2B3F42DE00531CFC /* NetworkImage.swift in Sources */,
 				B637566B2B3CAAF7003075B2 /* Attributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +255,6 @@
 			files = (
 				B637565D2B3CA9BE003075B2 /* Fizl_LiveActivity.swift in Sources */,
 				B602B8372B4DB82E00BC9E18 /* Bundle.swift in Sources */,
-				B6BA3F502B3F42DE00531CFC /* NetworkImage.swift in Sources */,
 				B637566C2B3CAAF7003075B2 /* Attributes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
